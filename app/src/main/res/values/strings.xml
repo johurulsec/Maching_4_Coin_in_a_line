@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">connect4</string>
+    <string name="connect_4">Matching 4 Coin in a Line Any Way</string>
+    <string name="exit">EXIT</string>
+    <string name="two_player">Human Vs Human</string>
+    <string name="single_player">Human Vs AI</string>
+    <string name="iv16">iv16</string>
+    <string name="iv26">iv26</string>
+    <string name="iv36">iv36</string>
+    <string name="iv46">iv46</string>
+    <string name="iv56">iv56</string>
+    <string name="iv66">iv66</string>
+    <string name="iv76">iv76</string>
+    <string name="iv15">iv15</string>
+    <string name="iv25">iv25</string>
+    <string name="iv35">iv35</string>
+    <string name="title_activity_about_activity">about_activity</string>
+</resources>

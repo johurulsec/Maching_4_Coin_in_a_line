@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.connect4.two_player_activity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_centerInParent="true"
+        android:columnCount="7"
+        android:rowCount="29">
+
+        <ImageView
+            android:id="@+id/iv61"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="23"
+            android:adjustViewBounds="true"
+            android:onClick="insert1"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv62"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="23"
+            android:adjustViewBounds="true"
+            android:onClick="insert2"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv63"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="23"
+            android:adjustViewBounds="true"
+            android:onClick="insert3"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv64"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="23"
+            android:adjustViewBounds="true"
+            android:onClick="insert4"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv65"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="23"
+            android:adjustViewBounds="true"
+            android:onClick="insert5"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv66"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="23"
+            android:adjustViewBounds="true"
+            android:onClick="insert6"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv67"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="6"
+            android:layout_row="23"
+            android:adjustViewBounds="true"
+            android:onClick="insert7"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv51"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="24"
+            android:adjustViewBounds="true"
+            android:onClick="insert1"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv52"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="24"
+            android:adjustViewBounds="true"
+            android:onClick="insert2"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv53"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="24"
+            android:adjustViewBounds="true"
+            android:onClick="insert3"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv54"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="24"
+            android:adjustViewBounds="true"
+            android:onClick="insert4"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv55"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="24"
+            android:adjustViewBounds="true"
+            android:onClick="insert5"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv56"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="24"
+            android:adjustViewBounds="true"
+            android:onClick="insert6"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv57"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="6"
+            android:layout_row="24"
+            android:adjustViewBounds="true"
+            android:onClick="insert7"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv41"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="25"
+            android:adjustViewBounds="true"
+            android:onClick="insert1"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv42"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="25"
+            android:adjustViewBounds="true"
+            android:onClick="insert2"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv43"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="25"
+            android:adjustViewBounds="true"
+            android:onClick="insert3"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv44"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="25"
+            android:adjustViewBounds="true"
+            android:onClick="insert4"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv45"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="25"
+            android:adjustViewBounds="true"
+            android:onClick="insert5"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv46"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="25"
+            android:adjustViewBounds="true"
+            android:onClick="insert6"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv47"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="6"
+            android:layout_row="25"
+            android:adjustViewBounds="true"
+            android:onClick="insert7"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv31"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="26"
+            android:adjustViewBounds="true"
+            android:onClick="insert1"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv32"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="26"
+            android:adjustViewBounds="true"
+            android:onClick="insert2"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv33"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="26"
+            android:adjustViewBounds="true"
+            android:onClick="insert3"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv34"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="26"
+            android:adjustViewBounds="true"
+            android:onClick="insert4"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv35"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="26"
+            android:adjustViewBounds="true"
+            android:onClick="insert5"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv36"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="26"
+            android:adjustViewBounds="true"
+            android:onClick="insert6"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv37"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="6"
+            android:layout_row="26"
+            android:adjustViewBounds="true"
+            android:onClick="insert7"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv21"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="27"
+            android:adjustViewBounds="true"
+            android:onClick="insert1"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="27"
+            android:adjustViewBounds="true"
+            android:onClick="insert2"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv23"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="27"
+            android:adjustViewBounds="true"
+            android:onClick="insert3"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="27"
+            android:adjustViewBounds="true"
+            android:onClick="insert4"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="27"
+            android:adjustViewBounds="true"
+            android:onClick="insert5"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv26"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="27"
+            android:adjustViewBounds="true"
+            android:onClick="insert6"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv27"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="6"
+            android:layout_row="27"
+            android:adjustViewBounds="true"
+            android:onClick="insert7"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="28"
+            android:adjustViewBounds="true"
+            android:onClick="insert1"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="28"
+            android:adjustViewBounds="true"
+
+            android:onClick="insert2"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="28"
+            android:adjustViewBounds="true"
+            android:onClick="insert3"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="28"
+            android:adjustViewBounds="true"
+            android:onClick="insert4"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="28"
+            android:adjustViewBounds="true"
+            android:onClick="insert5"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv16"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="28"
+            android:adjustViewBounds="true"
+            android:onClick="insert6"
+            android:src="@drawable/blackround" />
+
+        <ImageView
+            android:id="@+id/iv17"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="6"
+            android:layout_row="28"
+            android:adjustViewBounds="true"
+            android:onClick="insert7"
+            android:src="@drawable/blackround" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:autoText="false"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="PLAYER 1's Turn"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>
