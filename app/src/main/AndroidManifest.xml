@@ -23,6 +23,7 @@
         <activity android:name=".single_player_activity" />
         <activity android:name=".two_player_activity" />
         <activity android:name=".about_activity"></activity>
+        <activity android:name=".rules_activity"></activity>
     </application>
 
 </manifest>
