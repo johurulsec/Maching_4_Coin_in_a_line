@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingRight="5dp"
+    tools:background="@drawable/wood"
+    tools:context="com.example.user.connect4.rules_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="26dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/rule1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Both players have a set of 21 tokens like coins; each of them uses a different color(ex: red and yellow).
+"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rule2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rule1"
+            android:layout_marginTop="20dp"
+            android:text="2.The board is empty at the start of the game.
+"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rule3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rule2"
+            android:layout_marginTop="20dp"
+            android:text="3.Before starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.
+"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rule4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rule3"
+            android:layout_marginTop="20dp"
+            android:text="4. A player wins if he/she connects four coin in a  vertically, horizontally or diagonally.
+"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rule5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rule4"
+            android:layout_marginTop="20dp"
+            android:text="5. If the board is filled (42 tokens played) and no player has aligned four coins the game ends in a draw.
+"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rule6"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rule5"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="60dp"
+            android:text="Thanks!!!"
+            android:textSize="18sp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="back"
+            android:id="@+id/button3"
+            android:layout_marginBottom="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:onClick="back"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>
