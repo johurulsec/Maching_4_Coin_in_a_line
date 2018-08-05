@@ -1,7 +1,7 @@
 # Maching 4 Coin in a line
-##This is our 7th Semester AI Project game of Matching four coin in a line any way.
+**This is our 7th Semester AI Project game of Matching four coin in a line any way.**
 
-###Our game description bellow:
+###  Our game description bellow:
 
 Connect-4 is a two player popular board game which played by online and any mobile users to play this game human or against AI system. 
 This game is played on a vertical board which has seven columns and six rows.  Each column has a hole in the upper part of the board, where coins are introduced. There is a window for every square, so that coins can be seen from both sides. The game is over when one of the players gets 4 consecutive coins in any row, column or diagonal.
@@ -18,7 +18,8 @@ We have performed this game is android platform and apply AI technique of mini-m
 Finally we can say that, connect-4 is one of many simple style of board game that can be played and enjoyed by everyone.
 It’s a complete project.
 This game need to run android studio some build tools:
-minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0"
+minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0
+
 
 ## Enable Developer Options on Xiaomi
 
@@ -38,7 +39,7 @@ minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0"
 
 ## Enable the Developer Options in the HTC one Series phones
 
-> Step 1: Go to “Settings” and tap on “About”.
+> Step 1: Go to `Settings` and tap on `About`.
 
 > Step 2: Here, tap on “Software information” and then tap on “More”.
 
