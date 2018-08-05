@@ -20,4 +20,19 @@ It’s a complete project.
 This game need to run android studio some build tools:
 minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0"
 
+#Enable the Developer Options in the Samsung Galaxy Series phones
+Go to “Settings” and tap on “About Device” located at the end.
+In “About Device”, scroll down to the end and you will see “Build number” option.
+Tap on “Build number” option 7 times and you will be notified that the developer options are enabled.
+Enable the Developer Options in the HTC one Series phones
+Go to “Settings” and tap on “About”.
+Here, tap on “Software information” and then tap on “More”.
+You will find the option of “Build number” in “More”, tap on it 7 times to activate the developer options.
+Enable the Developer Options in the LG G Series phones
+Go to “Settings” and tap on “About phone”.
+Now, tap on “Software information” and you will find the option of “Build number” there.
+Tap on “Build number” option 7 times and the developer options will be enabled.
 
+
+For MI users: Go to Settings-> Additional settings-> Privacy-> Unknown sources (make it enable) 
+For Normal Users: Go to Settings-> Security -> Unknown sources (make it enable)
