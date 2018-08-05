@@ -20,6 +20,11 @@ It’s a complete project.
 This game need to run android studio some build tools:
 minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0
 
+## Tools 
+**1. Android Studio and SDK Tool**
+
+**2. Android Device( Android Version 4.3 to 7.1)**
+
 
 ## Enable Developer Options on Xiaomi Series phones
 
@@ -75,3 +80,24 @@ minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0
 > For MI users: Go to `Settings`-> `Additional settings`-> `Privacy`-> `Unknown sources` (make it enable) 
 
 > For Normal Users: Go to `Settings`-> `Security` -> `Unknown sources` (make it enable)
+
+## Run on Windows Machine
+
+> Step 1: Download Our Projecct (Zip File)
+
+> Step 2: Extract the Project File
+
+> Step 3: Run Android Studio
+
+> Step 4: Go to File-> Open -> Selecct Your Project -> Ok
+
+> Step 5: Go to Tools -> Android -> SDK Manager -> Android SDK Location -> Select SDK Path
+
+> Step 6: Connect A Android Device with USB
+
+> Step 7: Run 'app'(Shift + F10)
+
+> Step 8: Select Deployment Target Window will appear And Select Your Connected Android Device -> Ok
+
+
+
