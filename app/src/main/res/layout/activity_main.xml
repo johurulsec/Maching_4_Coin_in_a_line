@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="0dp"
         android:autoText="false"
         android:enabled="false"
         android:password="false"
@@ -78,5 +78,6 @@
         android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="19dp"
+        android:onClick="rules"
         android:text="HOW TO PLAY" />
 </RelativeLayout>
