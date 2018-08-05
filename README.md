@@ -1,4 +1,4 @@
-# Maching 4 Coin in a line
+# Maching 4 Coin in a line (Connect Four)
 **This is our 7th Semester AI Project game of Matching four coin in a line any way.**
 
 ###  Our game description bellow:
