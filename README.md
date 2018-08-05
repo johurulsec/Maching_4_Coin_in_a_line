@@ -61,7 +61,7 @@ minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0
 
 ## Before Run the project ensure below setting in Your Android Device
 
-> **Step 1: **
+> **Step 1:**
 
 > **(For MI users:)Go to `Settings`-> `Additional settings`-> find `Developer Option`  and Click**
 
@@ -77,7 +77,7 @@ minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0
 
 ## Another Setting
 
-> **For MI users: Go to `Settings`-> `Additional settings`-> `Privacy`-> `Unknown sources` (make it enable) **
+> **For MI users: Go to `Settings`-> `Additional settings`-> `Privacy`-> `Unknown sources` (make it enable)**
 
 > **For Normal Users: Go to `Settings`-> `Security` -> `Unknown sources` (make it enable)**
 
