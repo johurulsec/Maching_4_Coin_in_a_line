@@ -28,11 +28,11 @@ minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0
 
 ## Enable Developer Options on Xiaomi Series phones
 
-> Step 1: Unlock your phone and go to main `Settings` on your Xiaomi devices.
+> **Step 1: Unlock your phone and go to main `Settings` on your Xiaomi devices.**
 
-> Step 2: Scroll down to find `About phone` and tap on it.
+> **Step 2: Scroll down to find `About phone` and tap on it.**
 
-> Step 3: Locate `Miui Version` and tap seven times on it.
+> **Step 3: Locate `Miui Version` and tap seven times on it.**
 
 ## Enable the Developer Options in the Samsung Galaxy Series phones
 
