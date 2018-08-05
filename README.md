@@ -1,7 +1,7 @@
-# Maching_4_Coin_in_a_line
-#This is our 7th Semester AI Project game of Matching four coin in a line any way.
+# Maching 4 Coin in a line
+##This is our 7th Semester AI Project game of Matching four coin in a line any way.
 
-Our game description bellow:
+###Our game description bellow:
 
 Connect-4 is a two player popular board game which played by online and any mobile users to play this game human or against AI system. 
 This game is played on a vertical board which has seven columns and six rows.  Each column has a hole in the upper part of the board, where coins are introduced. There is a window for every square, so that coins can be seen from both sides. The game is over when one of the players gets 4 consecutive coins in any row, column or diagonal.
@@ -22,53 +22,55 @@ minSdkVersion 18, targetSdkVersion 25, buildToolsVersion"25.0.0"
 
 ## Enable Developer Options on Xiaomi
 
-Step 1: Unlock your phone and go to main Settings on your Xiaomi devices.
+> Step 1: Unlock your phone and go to main Settings on your Xiaomi devices.
 
-Step 2: Scroll down to find About phone and tap on it.
+> Step 2: Scroll down to find About phone and tap on it.
 
-Step 3: Locate Miui Version and tap seven times on it.
+> Step 3: Locate Miui Version and tap seven times on it.
 
 ## Enable the Developer Options in the Samsung Galaxy Series phones
 
-Step 1: Go to “Settings” and tap on “About Device” located at the end.
+> Step 1: Go to “Settings” and tap on “About Device” located at the end.
 
-Step 2: In “About Device”, scroll down to the end and you will see “Build number” option.
+> Step 2: In “About Device”, scroll down to the end and you will see “Build number” option.
 
-Tap on “Build number” option 7 times and you will be notified that the developer options are enabled.
+> Tap on “Build number” option 7 times and you will be notified that the developer options are enabled.
 
 ## Enable the Developer Options in the HTC one Series phones
 
-Step 1: Go to “Settings” and tap on “About”.
+> Step 1: Go to “Settings” and tap on “About”.
 
-Step 2: Here, tap on “Software information” and then tap on “More”.
+> Step 2: Here, tap on “Software information” and then tap on “More”.
 
-Step 3: You will find the option of “Build number” in “More”, tap on it 7 times to activate the developer options.
+> Step 3: You will find the option of “Build number” in “More”, tap on it 7 times to activate the developer options.
 
 ## Enable the Developer Options in the LG G Series phones
 
-Step 1: Go to “Settings” and tap on “About phone”.
+> Step 1: Go to “Settings” and tap on “About phone”.
 
-Step 2: Now, tap on “Software information” and you will find the option of “Build number” there.
+> Step 2: Now, tap on “Software information” and you will find the option of “Build number” there.
 
-Step 3: Tap on “Build number” option 7 times and the developer options will be enabled.
+> Step 3: Tap on “Build number” option 7 times and the developer options will be enabled.
 
 
 ## Before Run the project ensure below setting in Your Android Device
 
-Step 1: 
+> Step 1: 
 
-(For MI users:)Go to Settings-> Additional settings-> find "Developer Option"  and Click
+> (For MI users:)Go to Settings-> Additional settings-> find "Developer Option"  and Click
 
-(For Normal Users:) Go to Settings-> Additional settings-> find "Developer Option"  and Click
+> (For Normal Users:) Go to Settings-> Additional settings-> find "Developer Option"  and Click
 
-Step 2: TURN ON "Developer Option"
+> Step 2: TURN ON "Developer Option"
 
-Step 3: TURN ON "USB Debugging"
+> Step 3: TURN ON "USB Debugging"
 
-Step 4: TURN ON "Install Via USB"
+> Step 4: TURN ON "Install Via USB"
 
-Step 5: TURN ON "Verify apps over USB"
+> Step 5: TURN ON "Verify apps over USB"
 
 ## Another Setting
-For MI users: Go to Settings-> Additional settings-> Privacy-> Unknown sources (make it enable) 
-For Normal Users: Go to Settings-> Security -> Unknown sources (make it enable)
+
+> For MI users: Go to Settings-> Additional settings-> Privacy-> Unknown sources (make it enable) 
+
+> For Normal Users: Go to Settings-> Security -> Unknown sources (make it enable)
