@@ -15,4 +15,5 @@
     <string name="iv25">iv25</string>
     <string name="iv35">iv35</string>
     <string name="title_activity_about_activity">about_activity</string>
+    <string name="title_activity_rules">rules_activity</string>
 </resources>
